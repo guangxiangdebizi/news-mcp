@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "news-mcp": {
+      "command": "node",
+      "args": ["C:\\Users\\26214\\Desktop\\MyProject\\Financetoolshere\\news-mcp\\build\\index.js"]
+    }
+  }
+}

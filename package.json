@@ -1,0 +1,37 @@
+{
+  "name": "news-mcp",
+  "version": "1.0.0",
+  "description": "A smart news MCP server with automatic API switching for reliable news fetching",
+  "main": "build/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc --watch",
+    "sse": "npx supergateway --stdio \"node build/index.js\" --port 3100"
+  },
+  "keywords": ["mcp", "news", "api", "smart-switching"],
+  "author": {
+    "name": "Xingyu Chen",
+    "email": "guangxiangdebizi@gmail.com",
+    "url": "https://github.com/guangxiangdebizi/"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guangxiangdebizi/news-mcp.git"
+  },
+  "homepage": "https://github.com/guangxiangdebizi/news-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/guangxiangdebizi/news-mcp/issues"
+  }
+}
