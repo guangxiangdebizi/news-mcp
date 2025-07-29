@@ -6,6 +6,10 @@
 
 A smart news search MCP (Model Context Protocol) server with **automatic API switching** for reliable news fetching. Never worry about API limits again!
 
+<a href="https://glama.ai/mcp/servers/@guangxiangdebizi/news-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@guangxiangdebizi/news-mcp/badge" alt="News Server MCP server" />
+</a>
+
 ## ✨ Features
 
 - 🔄 **Smart API Switching**: Automatically switches between multiple news APIs when one reaches its limit
